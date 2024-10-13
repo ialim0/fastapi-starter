@@ -1,18 +1,19 @@
-
-# FastAPI Starter
+# FastAPI Auth Starter
 
 This is a FastAPI starter code for setting up authentication quickly and efficiently. It provides a flexible solution that can be adapted to various types of applications, from small projects to complex SaaS products.
 
 ## Features
+
 - Quick setup for user authentication
 - Flexible enough to work with different kinds of apps
 - Supports multiple authentication providers (Google, GitHub, LinkedIn)
 - Customizable to fit your specific needs
-- Includes `pytest` for testing
+- Includes `pytest` for authentication testing
 
 ## Getting Started
 
 ### Prerequisites
+
 - Python 3.7+
 - FastAPI
 - SQLite (or any other database supported by SQLAlchemy)
@@ -23,7 +24,7 @@ This is a FastAPI starter code for setting up authentication quickly and efficie
 Clone the repository:
 
 ```bash
-git clone https://github.com/ialim0/fastapi-starter.git
+git clone https://github.com/yourusername/fastapi-auth-starter.git
 cd fastapi-auth-starter
 ```
 
@@ -67,6 +68,7 @@ Open your browser and navigate to `http://127.0.0.1:8000` to see the application
 ## Usage
 
 ### Authentication Providers
+
 This starter code supports multiple authentication providers:
 
 - **Google**: Use the `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, and `GOOGLE_REDIRECT_URI` environment variables to configure Google authentication.
@@ -81,7 +83,7 @@ The starter code is designed to be flexible and customizable. You can easily ada
 
 This project includes `pytest` for testing the authentication functionality. To run the tests, follow these steps:
 
-Ensure you have `pytest` installed:
+Ensure you have pytest installed:
 
 ```bash
 pip install pytest
@@ -97,13 +99,13 @@ The tests are located in the `tests` directory. You can add more tests as needed
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions, improvements, or bug fixes.
+We welcome contributions to this project! If you have suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request. Your contributions help make this project better for everyone.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 
-- Thanks to the FastAPI community for their excellent documentation and support.
-- Special thanks to the maintainers of the libraries used in this project.
+Thanks to the FastAPI community for their excellent documentation and support.  
+Special thanks to the maintainers of the libraries used in this project.
