@@ -24,7 +24,7 @@ This is a FastAPI starter code for setting up authentication quickly and efficie
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fastapi-auth-starter.git
+git clone https://github.com/ialim0/fastapi-starter
 cd fastapi-auth-starter
 ```
 
